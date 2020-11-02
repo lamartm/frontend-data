@@ -1,0 +1,23 @@
+{
+  "name": "frontend-data",
+  "version": "1.0.0",
+  "description": "Frontend data",
+  "main": "index.js",
+  "dependencies": {
+    "d3": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamartm/frontend-data.git"
+  },
+  "author": "Mohamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamartm/frontend-data/issues"
+  },
+  "homepage": "https://github.com/lamartm/frontend-data#readme"
+}
