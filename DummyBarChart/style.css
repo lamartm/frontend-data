@@ -1,0 +1,27 @@
+.container {
+    width: 800px;
+    height: 700px;
+}
+.bar {
+    fill: #d65b5b;
+}
+.title {
+    font-size: 2em;
+    fill: #333232;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tick text {
+    font-size: 1.7em;
+    fill: rgb(212, 66, 66) 
+}
+.tick line {
+    stroke: rgb(204, 204, 204);
+}
+
+.axis-label {
+    font-size: 1.8em;
+}
+text {
+ font-size: 1.5em;   
+}
