@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+.sphere {
+    fill: darkblue;
+}
+.country {
+    fill: rgb(119, 202, 174);
+    stroke: rgb(119, 116, 116);
+}
+.country:hover {
+    fill:rgb(50, 230, 155)
+}
