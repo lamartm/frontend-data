@@ -2,6 +2,9 @@
    ![Visu 1](https://github.com/lamartm/frontend-data/blob/master/images/visu%201.PNG)
    ![Visu 2](https://github.com/lamartm/frontend-data/blob/master/images/visu%202.PNG)
    
+## Live-Demo
+[Link](https://lamartm.github.io/frontend-data/)
+   
 ## Beschrijving 📖
 Voor Frontend-Data maken we gebruik van de opgeschonde data die we in Functional Programming hebben gemaakt. Hiervan maken we visualisaties met behulp van de D3 library.
 Ik zal gebruik maken van de carpool data van de RDW om een visualisatie te maken voor de Volkskrant. De visualisatie zal over de volgende vraag gaan:
