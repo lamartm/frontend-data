@@ -16,16 +16,17 @@ const cleanedArray = json.map(item => {
           }
           }
         return item
-  })
+    })
   const object = Object.fromEntries(newValues) 
   return object
-}
-)
+  }
+  )
   return cleanedArray
 
 }
+
 function ParkingObject(d) {
-  return {longitude: d.location.longitude, latitude: d.location.latitude, parkeer: d.aantal_parkeer_plaatsen, gebied: d.areadesc};
+  return {longitude: d.location.longitude, latitude: d.location.latitude, parkeer: d.aantal_parkeer_plaatsen, laad: d.aantal_laad_punten, handicap: d.toegankelijk_voor_gehandicapten, gebied: d.areadesc};
 }
 
 export async function locatieData() {
