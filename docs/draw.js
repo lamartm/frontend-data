@@ -103,69 +103,6 @@ export async function drawMap() {
   }
 
 
-//     makeCircles(g, check)
-//   });
-
-    //   .append('title')
-    //       .text(d => `${'yoyoeee' + '<br />' + 'Aantal parkeerplaatsen:' + ' ' + d.parkeer}`)
-  
-
-
-
-
-//   function reset() {
-//     provincies.transition().style('fill', null);
-//     svg
-//       .transition()
-//       .duration(750)
-//       .call(
-//         zoom.transform,
-//         d3.zoomIdentity,
-//         d3.zoomTransform(svg.node()).invert([width / 2, height / 2])
-//       );
-//   }
-
- 
 } 
 
-// export async function drawGraph() {
-//   const dataAr = await parkeerPerArea()
-//   const margin = {top: 20, bottom: 20, left: 40, right: 20}
-//   const xScale = d3.scaleBand()
-//                    .domain(dataAr.map(data => data.areadesc))
-//                    .rangeRound([0, 3000])
-//                    .padding(0.1)
-//   const yScale = d3.scaleLinear()
-//                    .domain([0,400])
-//                    .range([200,0])
-  
-//   const container = d3.select('body')
-//       .append('svg')
-//       .classed('container', true)
-//       .append('g')
-//       .attr('transform', `translate(${margin.left},${margin.right})`);
-  
-//   container.append('g').call(d3.axisLeft(yScale));
 
-//   container.append('g').call(d3.axisBottom(xScale)).attr('transform', `translate(0,200)`);
-
-//   container.selectAll('.bar')
-//   .data(dataAr)
-//   .enter()
-//   .append('rect')
-//   .classed('bar', true)
-//   .attr('width', xScale.bandwidth())
-//   .attr('height', data => 200 - yScale(data.parkeren))
-//   .attr('x', data => xScale(data.areadesc))
-//   .attr('y', data => yScale(data.parkeren))
-// }
-
-// const circle = g.selectAll('circles').data(check)
-// circle.exit()
-//         .remove()
-// circle.enter()
-//       .append('circle')
-//       .attr("r",  function(d){ return radiusScale(d.check)})
-// circle.transition()
-//       .duration(500)
-//       .attr("r",  function(d){ return radiusScale(d.check)})
