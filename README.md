@@ -1,6 +1,6 @@
 # Frontend-data
 
-Voor de Volkskrant moeten wij vooronderzoek doen op een aantal datasets en hieruit interessante inzichten uit halen. Bij functional programming zal ik vooral kijken wat er in de 
+Voor de Volkskrant moeten wij vooronderzoek doen op een aantal datasets en hieruit interessante inzichten uit halen. Het gaat hier dan om de auto in de stad. Alles wat hierover te maken heeft en interessante inzichten bevat, kunnen wij helemaal onderzoek. Het is dan wel de bedoeling dat we ook nog een passende visualisatie kunnen maken met de inzichten.Bij functional programming zal ik vooral kijken wat er in de 
 datasets allemaal in zitten en met behulp van functional patterns ze proberen op te schonen en presenteerbaar te maken.
 
 In deze repo zal ik al mijn keuzes voor het opschonen en presenteren van de data documenteren en uitleggen.
@@ -48,6 +48,9 @@ De carpool locaties binnen Nederland beschikken niet allemaal van dezelfde voorz
    Mogelijke visualisatie:
    
    ![Visu 4](https://github.com/lamartm/functional-programming/blob/main/images/mogelijke%20visu%204.png)
+   
+### Features
+Ik heb in de repository ook nog de dataset van de studenten van de CMD gecleaned. De studenten moesten een vragenlijst invullen en hieruit kwam er veel vuile data. Dit moest door funtional patterns opgeschoond worden. Dingen zoals de correcte HEX kleuren toevoegen en non-answers zoals "/" en "0" weghalen.
 
 ### Variabelen
 
