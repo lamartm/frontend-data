@@ -42,28 +42,3 @@ export async function locatieData() {
   const dataArr = await apiCall()
   return dataArr.map(ParkingObject)
 }
-
-
-// export async function parkeerPerArea() {
-//   const info =  await apiCall()
-//   const newInfo = info.map(item => {
-//       const areadesc = item.areadesc
-//       const parkeer = item.aantal_parkeer_plaatsen
-//       const obj = {areadesc: areadesc, parkeren: parkeer}
-//       return obj
-//     })
-// return newInfo
-// }
-
-
-
-// apiCall()
-//   .then (data => {
-//     let comparison = data.map( item => {
-//       const areadesc = item.areadesc
-//       const parkeer = item.aantal_parkeer_plaatsen
-//       const obj = {areadesc: areadesc, parkeren: parkeer}
-//       return obj
-//     })
-//     return comparison
-//   })
