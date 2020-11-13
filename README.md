@@ -1,5 +1,6 @@
 # Frontend-data
-
+   ![Visu 1](https://github.com/lamartm/frontend-data/blob/master/images/visu%201.PNG)
+   ![Visu 2](https://github.com/lamartm/frontend-data/blob/master/images/visu%202.PNG)
 
 ### Features
 Ik heb in de repository ook nog de dataset van de studenten van de CMD gecleaned. De studenten moesten een vragenlijst invullen en hieruit kwam er veel vuile data. Dit moest door funtional patterns opgeschoond worden. Dingen zoals de correcte HEX kleuren toevoegen en non-answers zoals "/" en "0" weghalen.
