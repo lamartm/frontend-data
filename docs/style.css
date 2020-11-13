@@ -27,12 +27,11 @@ h1 {
 }
 .tooltip {
     background-color: #fff;
-    padding: 7px;
-    border: 2.5px solid;
+    padding: 6px;
+    border: 2px solid;
     border-color: black;
-    border-radius: 3px;
+    border-radius: 4px;
     position: absolute;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 2px 10px;
   }
   /* .map {
     width: 975px;
