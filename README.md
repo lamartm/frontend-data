@@ -2,7 +2,7 @@
    ![Visu 1](https://github.com/lamartm/frontend-data/blob/master/images/visu%201.PNG)
    ![Visu 2](https://github.com/lamartm/frontend-data/blob/master/images/visu%202.PNG)
    
-## Beschrijving
+## Beschrijving 📖
 Voor Frontend-Data maken we gebruik van de opgeschonde data die we in Functional Programming hebben gemaakt. Hiervan maken we visualisaties met behulp van de D3 library.
 Ik zal gebruik maken van de carpool data van de RDW om een visualisatie te maken voor de Volkskrant. De visualisatie zal over de volgende vraag gaan:
 
@@ -11,17 +11,17 @@ Ik zal gebruik maken van de carpool data van de RDW om een visualisatie te maken
 Voor verdere uitleg over de vraag en de subvragen kunt u hier naartoe:
 [wiki -  Concept beschrijving](google.com)
 
-## Hulpbronnen
+## Hulpbronnen 🦮
 Ik heb voornamelijk de course van Curran gevolgd om een D3 visualisatie te maken: 
 (https://www.youtube.com/watch?v=vHqTbSd4D4I&ab_channel=CurranKelleher)
 
 Voor de rest heb ik gebruik gemaakt van de lessen die we kregen.
 
-## Dataset
+## Dataset 💽
 Ik maakte hiervoor alleen gebruik van de carpool dataset van de RDW:
 [Carpool dataset](https://opendata.rdw.nl/Parkeren/GEO-Carpool/9c54-cmfx)
 
-## Variabelen
+## Variabelen 🗄️
 
 De volgende variabellen zijn gebruikt van de RDW dataset:
 
@@ -31,6 +31,6 @@ De volgende variabellen zijn gebruikt van de RDW dataset:
 - toegankelijk_voor_gehandicapten - Variabel die de aantal carpool locaties laat zien die toegankelijk voor gehandicapten zijn
 - Location -  Variabel die de locatie zien in coordinaten van de carpool locaties
 
-## Sources
+## Sources ℹ️
 [CurranKelleher. (2018, 23 augustus). Data Visualization 2018 Course Overview [Video]. YouTube.]
 (https://www.youtube.com/watch?v=vHqTbSd4D4I&ab_channel=CurranKelleher)
