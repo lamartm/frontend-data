@@ -6,6 +6,7 @@ import nlMap from './nlMap.js'
 
 export async function drawMap() {
   const locatie = await locatieData()
+  console.log(locatie)
 //Bewaar nlMap in nlData
   const nlData = await nlMap()
   const path = d3.geoPath()
@@ -64,17 +65,16 @@ export async function drawMap() {
 // Functie die cirkels maakt op de map gebasseerd op de gekozen optie (selectedVariabel) en de gekozen groep/map waarop de cirkels
 // gemaakt moeten worden (selectedGroup)
   function makeCircles(selectedGroup, selectedVariabel) {
-    const circles = selectedGroup.selectAll('circles').data(locatie)
+    const circles = selectedGroup.selectAll('circle').data(locatie)
         svg
 // Update call die elke keer gaat wanneer er een nieuwe variabel gekozen wordt, haal de vorige cirkels weg en zet de radius op 0
           .selectAll('circle').transition().duration(1000)
-          .remove('circle')
-          .attr("r",  0)
+          .attr("r",  function(d){ return radiusScale( d[selectedVariabel]) })
     circles.enter()
         .append("circle")
-            .attr("cx", function(d){ return projection([d.longitude, d.latitude])[0] })
-            .attr("cy", function(d){ return projection([d.longitude, d.latitude])[1] })
-            .attr("r",  function(d){ return radiusScale(d[selectedVariabel])})
+            .attr("cx", function(d){ return projection([ d.longitude, d.latitude ])[0] })
+            .attr("cy", function(d){ return projection([ d.longitude, d.latitude ])[1] })
+            .attr("r",  function(d){ return radiusScale( d[selectedVariabel] ) })
             .style("fill", "69b3a2")
             .attr("stroke", "#69b3a2")
             .attr("stroke-width", .7)
@@ -83,6 +83,9 @@ export async function drawMap() {
 // mouse events voor tooltip en styling
             .on('mousemove', mouseMove)
             .on("mouseout", mouseOut)
+            circles 
+              .exit()
+               .remove()
   }
 
   function mouseMove(d) {
