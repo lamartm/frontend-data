@@ -30,13 +30,13 @@ Navigeer naar deze map en run de volgende command:
 Om de project te gebruiken:
 ``` npm run dev ```
 
-# Dependencies
+### Dependencies
 ```   
 "dependencies": {
     "d3": "^6.2.0"
   }
 ```
-# Scripts
+### Scripts
 ```
 "scripts": {
     "test": "node index.js"
