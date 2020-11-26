@@ -108,3 +108,34 @@ export async function drawMap() {
 
 } 
 
+// export async function drawGraph() {
+//   const dataAr = await locatieData()
+//   const margin = {top: 20, bottom: 20, left: 40, right: 20}
+//   const xScale = d3.scaleBand()
+//                    .domain(dataAr.map(data => data.gebied))
+//                    .rangeRound([0, 300])
+//                    .padding(0.1)
+//   const yScale = d3.scaleLinear()
+//                    .domain([0,400])
+//                    .range([200,0])
+  
+//   const container = d3.select('body')
+//       .append('svg')
+//       .classed('container', true)
+//       .append('g')
+//       .attr('transform', `translate(${margin.left},${margin.right})`);
+  
+//   container.append('g').call(d3.axisLeft(yScale));
+
+//   container.append('g').call(d3.axisBottom(xScale)).attr('transform', `translate(0,200)`);
+
+//   container.selectAll('.bar')
+//   .data(dataAr)
+//   .enter()
+//   .append('rect')
+//   .classed('bar', true)
+//   .attr('width', xScale.bandwidth())
+//   .attr('height', data => 200 - yScale(data.parkeer))
+//   .attr('x', data => xScale(data.gebied))
+//   .attr('y', data => yScale(data.parkeer))
+// }
