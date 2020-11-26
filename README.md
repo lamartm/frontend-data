@@ -20,6 +20,29 @@ Ik heb voornamelijk de course van Curran gevolgd om een D3 visualisatie te maken
 
 Voor de rest heb ik gebruik gemaakt van de lessen die we kregen.
 
+## Install guide 🚀
+Clone deze repo:
+```$ git https://github.com/lamartm/frontend-data.git```
+
+Navigeer naar deze map en run de volgende command:
+``` npm install ```
+
+Om de project te gebruiken:
+``` npm run dev ```
+
+# Dependencies
+```   
+"dependencies": {
+    "d3": "^6.2.0"
+  }
+```
+# Scripts
+```
+"scripts": {
+    "test": "node index.js"
+  }
+```
+
 ## Dataset 💽
 Ik maakte hiervoor alleen gebruik van de carpool dataset van de RDW:
 [Carpool dataset](https://opendata.rdw.nl/Parkeren/GEO-Carpool/9c54-cmfx)
