@@ -22,12 +22,15 @@ Voor de rest heb ik gebruik gemaakt van de lessen die we kregen.
 
 ## Install guide 🚀
 Clone deze repo:
+
 ```$ git https://github.com/lamartm/frontend-data.git```
 
 Navigeer naar deze map en run de volgende command:
+
 ``` npm install ```
 
 Om de project te gebruiken:
+
 ``` npm run dev ```
 
 ### Dependencies
