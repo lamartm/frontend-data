@@ -5,8 +5,9 @@ export async function apiCall() {
 const json = await getData()
 //Maak hier functie die het gaat opschonen in een nieuwe array
 const cleanedArray = json.map(item => {
-//Wil nummer strings veranderen naar nummers, dus ga hier eerst de object in pairs opsplitsen
+//Wil nummer strings veranderen naar nummers, dus ga hier eerst de object in pairs van arrays opsplitsen
   const values = Object.entries(item)
+  console.log(values)
 //Van die values wil ik een nieuwe geschonde array maken
   const newValues = values.map((item, index) => {
 //Kijk hier of de property value een nummer string is, zo ja parse het naar een nummer

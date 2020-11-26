@@ -46,7 +46,7 @@ export async function drawMap() {
     .selectAll('path')
     .data(topojson.feature(nlData, nlData.objects.provincie_2020).features)
     .join('path')
-    .attr('d', path)
+    .attr('d', pathGenerator)
 
 // Nieuwe div gemaakt die de tooltip zal zijn, van nature hidden
   const tooltip = d3.select('#map')
@@ -83,9 +83,9 @@ export async function drawMap() {
 // mouse events voor tooltip en styling
             .on('mousemove', mouseMove)
             .on("mouseout", mouseOut)
-            circles 
-              .exit()
-               .remove()
+            // circles 
+            //   .exit()
+            //    .remove()
   }
 
   function mouseMove(d) {
